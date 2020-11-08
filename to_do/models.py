@@ -8,7 +8,6 @@ class Board(models.Model):
     def __str__(self):
         return 'Board {}'.format(self.name)
 
-
 class TodoList(models.Model):
     title = models.CharField(verbose_name='Title', max_length=100)
     done = models.BooleanField(default=False)
