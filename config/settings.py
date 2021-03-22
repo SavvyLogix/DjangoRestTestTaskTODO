@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     'drf_yasg',
     'rest_framework',
     'to_do',
+    'reminder',
 ]
 
 MIDDLEWARE = [
